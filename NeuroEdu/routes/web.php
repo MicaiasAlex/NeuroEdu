@@ -3,6 +3,6 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('site.home'); // sem .blade.php
+    return view('home'); // sem .blade.php
 });
 

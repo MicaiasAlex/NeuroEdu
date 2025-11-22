@@ -1,126 +1,60 @@
-/* ---------- RESET ---------- */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
+    margin: 0;
     font-family: Arial, sans-serif;
-    color: #2E2E2E;
-    background: #ffffff;
+    background: #f7f7f7;
 }
 
-/* ---------- NAVBAR ---------- */
+/* NAVBAR */
 .navbar {
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
     padding: 20px 40px;
-    background: #ffffff;
-    border-bottom: 1px solid #e5e5e5;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.nav-links {
-    display: flex;
-    gap: 30px;
+.navbar .menu {
     list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
-.nav-links a {
+.navbar a {
     text-decoration: none;
-    color: #494949;
-    font-weight: 600;
+    color: #333;
 }
 
-/* ---------- HERO ---------- */
+/* HERO */
 .hero {
+    padding: 80px;
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 60px 40px;
-}
-
-.hero-content h1 {
-    font-size: 56px;
-    font-weight: bold;
-    color: #3B5BDB;
-}
-
-.hero-content p {
-    margin: 20px 0;
-    font-size: 18px;
-    width: 380px;
-}
-
-.btn-primary {
-    padding: 12px 30px;
-    background: #3B5BDB;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    cursor: pointer;
-}
-
-/* ---------- SOBRE ---------- */
-.sobre {
-    padding: 80px 40px;
-}
-
-.sec-title {
-    font-size: 32px;
-    margin-bottom: 40px;
-    color: #3B5BDB;
-    text-align: center;
-}
-
-.sobre-grid {
-    display: flex;
     align-items: center;
-    gap: 40px;
 }
 
-/* ---------- CARDS ---------- */
+.hero-text h1 {
+    font-size: 48px;
+}
+
+/* CARDS */
 .cards-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 30px;
+    gap: 20px;
     padding: 40px;
 }
 
 .card {
+    background: white;
     padding: 20px;
     border-radius: 10px;
-    background: #F2F4FF;
     text-align: center;
 }
 
-.card h3 {
-    margin-top: 10px;
-    font-size: 20px;
-    color: #3B5BDB;
-}
-
-/* ---------- IDENTIFICAR ---------- */
-.identificar {
-    padding: 80px 40px;
-    text-align: center;
-}
-
-/* ---------- EDUCADORES ---------- */
-.educadores {
-    padding: 80px 40px;
-}
-
-/* ---------- FOOTER ---------- */
+/* FOOTER */
 .footer {
-    background: #3B5BDB;
+    background: #222;
     color: white;
-    text-align: center;
     padding: 20px;
-    margin-top: 60px;
+    text-align: center;
 }
