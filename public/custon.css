@@ -1,0 +1,273 @@
+body {
+    background-color: #f2fbff;
+}
+
+/* HERO */
+/* .hero-section {
+    background: linear-gradient(135deg, #77c4ff, #e6f6ff);
+} */
+
+.hero-title {
+    font-family: "Open Sans Condensed", system-ui, -apple-system,
+        BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-weight: 700;
+    font-size: 3.4rem;
+    color: #3d5c89;
+    text-shadow: 0 6px 5px rgba(0, 0, 0, 0.25);
+}
+
+.hero-eyebrow {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #fe6869;
+}
+
+.hero-subtitle {
+    font-size: 1.6rem;
+    font-style: italic;
+    color: #8dbda0;
+}
+
+.hero-image {
+    max-height: 420px;
+    object-fit: contain;
+}
+
+/* SEÇÕES */
+.section-title {
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.section-soft-green {
+    background-color: #d1efe4;
+}
+
+.section-blue {
+    background-color: #8db0bd;
+}
+
+.section-blue-light {
+    background-color: #e0edf4;
+}
+
+/* CARDS */
+.card-neuro,
+.guia-card {
+    background-color: #ebfbff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.card-neuro .card-title,
+.guia-card .card-title {
+    font-weight: 700;
+}
+
+.card-neuro .card-text {
+    color: #2841e5;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* CTA */
+.cta-btn {
+    border-radius: 10px;
+    box-shadow: 3px 10px 0 #894343;
+    font-weight: 700;
+}
+/* HEADER / NAVBAR */
+
+.site-header {
+    z-index: 1030; /* fica por cima do conteúdo */
+}
+
+.site-logo {
+    height: 32px;
+    width: auto;
+}
+
+.navbar {
+    padding-top: 0.35rem;
+    padding-bottom: 0.35rem;
+}
+
+/* Links com a cor do Figma (#102c86) */
+.nav-link-neuro {
+    font-family: "Open Sans", system-ui, -apple-system, BlinkMacSystemFont,
+        "Segoe UI", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #102c86;
+}
+
+.nav-link-neuro:hover,
+.nav-link-neuro:focus {
+    color: #0b1f60;
+}
+
+/* Link ativo – você pode controlar via JS ou pela rota */
+.nav-link-neuro.ac
+
+/* Fundo das páginas de autenticação */
+.auth-wrapper {
+    min-height: calc(100vh - 80px); /* considera header/footer */
+    display: flex;
+    align-items: center;
+    background: linear-gradient(135deg, #77c4ff, #e6f6ff);
+    padding: 3rem 0;
+}
+
+/* Card de login/cadastro */
+.auth-card {
+    border-radius: 16px;
+    background-color: #ffffff;
+}
+
+/* Título/subtítulo */
+.auth-title {
+    font-weight: 800;
+    font-size: 1.8rem;
+    color: #3d5c89;
+}
+
+.auth-subtitle {
+    font-size: 0.95rem;
+    color: #3c4a63;
+}
+
+/* Inputs */
+.auth-input {
+    border-radius: 10px;
+    border: 1px solid #d3e3f5;
+    padding: 0.55rem 0.9rem;
+}
+
+.auth-input:focus {
+    border-color: #77c4ff;
+    box-shadow: 0 0 0 0.2rem rgba(119, 196, 255, 0.25);
+}
+
+/* Botão principal no laranja/vermelho do site */
+.btn-auth-primary {
+    background-color: #fe6869;
+    border-color: #fe6869;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    box-shadow: 3px 6px 0 #894343;
+}
+
+.btn-auth-primary:hover,
+.btn-auth-primary:focus {
+    background-color: #e35354;
+    border-color: #e35354;
+}
+
+/* Links de ação (esqueci senha / já tenho conta) */
+.auth-link {
+    color: #102c86;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.auth-link:hover {
+    color: #0b1f60;
+    text-decoration: underline;
+}
+/* Corpo geral */
+.app-body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f6fbff;
+}
+
+/* Logo header */
+.header-logo {
+    height: 38px;
+}
+
+/* Dropdown estilos */
+.dropdown-menu a:hover {
+    background-color: #f0f6ff;
+    font-weight: 600;
+}
+
+/* WRAPPER DA ÁREA LOGADA */
+.dashboard-wrapper {
+    background: linear-gradient(180deg, #e6f6ff 0%, #f8fcff 40%, #f6fbff 100%);
+    min-height: calc(100vh - 80px);
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+/* CARD PRINCIPAL DE BOAS-VINDAS */
+.dashboard-hero {
+    border-radius: 16px;
+    background: #ffffff;
+}
+
+.dashboard-title {
+    font-weight: 800;
+    font-size: 1.9rem;
+    color: #3d5c89;
+}
+
+.dashboard-subtitle {
+    font-size: 0.95rem;
+    color: #3c4a63;
+}
+
+/* CARDS DA DASHBOARD */
+.dashboard-card {
+    border-radius: 14px;
+    border: none;
+    background-color: #ffffff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+}
+
+.dashboard-card .card-title {
+    font-weight: 700;
+    color: #102c86;
+}
+
+.dashboard-card .card-text {
+    font-size: 0.95rem;
+}
+
+/* BADGES PARA TIPOS */
+.badge.bg-primary-subtle {
+    background-color: #e3f0ff !important;
+    color: #102c86 !important;
+    font-weight: 600;
+}
+
+/* LINK DE RECURSOS */
+.link-neuro {
+    color: #102c86;
+}
+
+.link-neuro:hover {
+    color: #0b1f60;
+    text-decoration: underline;
+}
+
+/* Botão da comunidade (mesmo estilo que já criamos) */
+.btn-neuro-community {
+    font-family: "Open Sans", system-ui, sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #ffffff;
+    background-color: #fe6869;
+    border-radius: 10px;
+    padding: 0.5rem 1.2rem;
+    border: none;
+    box-shadow: 3px 6px 0 #894343;
+}
+
+.btn-neuro-community:hover,
+.btn-neuro-community:focus {
+    background-color: #e35354;
+    color: #ffffff;
+}
