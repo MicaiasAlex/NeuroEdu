@@ -35,6 +35,7 @@ class ContadorController extends Controller
             'total_downloads' => $contador->total_downloads + 1,
         ]);
     }
+<<<<<<< HEAD
 
     public function downloadPdf()
 {
@@ -73,4 +74,6 @@ class ContadorController extends Controller
     return response()->download($filePath, 'manual.pdf');
 }
 
+=======
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
 }

@@ -15,7 +15,11 @@
             <div class="p-4 p-md-5 rounded-3" style="background-color:#ffffff; border: 2px solid #d0e6ff;">
                 <div class="row gy-4">
                     <div class="col-md-4 text-center">
+<<<<<<< HEAD
                         <img src="https://raqueldelmonde.com.br/wp-content/uploads/2022/12/61-scaled.jpg"
+=======
+                        <img src="https://images.pexels.com/photos/4100657/pexels-photo-4100657.jpeg"
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
                              alt="Síndrome de Tourette"
                              class="img-fluid rounded-3 shadow-sm mb-3">
                     </div>

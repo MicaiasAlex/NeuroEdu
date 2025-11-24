@@ -107,6 +107,12 @@ body {
     color: #0b1f60;
 }
 
+<<<<<<< HEAD
+=======
+/* Link ativo – você pode controlar via JS ou pela rota */
+.nav-link-neuro.ac
+
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
 /* Fundo das páginas de autenticação */
 .auth-wrapper {
     min-height: calc(100vh - 80px); /* considera header/footer */
@@ -154,6 +160,10 @@ body {
     font-weight: 700;
     font-size: 1rem;
     padding: 0.6rem 1rem;
+<<<<<<< HEAD
+=======
+    box-shadow: 3px 6px 0 #894343;
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
 }
 
 .btn-auth-primary:hover,
@@ -252,12 +262,21 @@ body {
 /* Botão da comunidade (mesmo estilo que já criamos) */
 .btn-neuro-community {
     font-family: "Open Sans", system-ui, sans-serif;
+<<<<<<< HEAD
     font-weight: 300;
     font-size: 0.98rem;
     color: #ffffff;
     background-color: #fe6869;
     border-radius: 10px;
     padding: 0.10rem 1rem;
+=======
+    font-weight: 700;
+    font-size: 0.95rem;
+    color: #ffffff;
+    background-color: #fe6869;
+    border-radius: 10px;
+    padding: 0.5rem 1.2rem;
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
     border: none;
     box-shadow: 3px 6px 0 #894343;
 }
@@ -267,6 +286,7 @@ body {
     background-color: #e35354;
     color: #ffffff;
 }
+<<<<<<< HEAD
 
 /* ACESSIBILIDADE */
 
@@ -456,3 +476,5 @@ F2FBFF = Footer e Header
 17171A = cor da fonte/texto 
 #1d4f82 = cor da fonte pequenos dos card parte externa
 */
+=======
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa

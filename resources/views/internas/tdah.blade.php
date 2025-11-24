@@ -18,7 +18,11 @@
             <div class="p-4 p-md-5 rounded-3" style="background-color:#ffffff; border: 2px solid #d0e6ff;">
                 <div class="row gy-4">
                     <div class="col-md-4 text-center">
+<<<<<<< HEAD
                         <img src="https://notiserrasc.com.br/wp-content/uploads/2025/02/TDAH-CAPA.jpg.webp"
+=======
+                        <img src="https://images.pexels.com/photos/3965552/pexels-photo-3965552.jpeg"
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
                              alt="TDAH"
                              class="img-fluid rounded-3 shadow-sm mb-3">
                     </div>

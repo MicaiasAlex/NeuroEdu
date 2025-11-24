@@ -16,6 +16,16 @@
                         É o conceito que reconhece a diversidade natural das funções cerebrais e comportamentais humanas.
                     </p>
 
+<<<<<<< HEAD
+=======
+                    <p class="mb-3">
+                        <strong>Reconhecendo a Pluralidade do Cérebro Humano</strong><br>
+                        A neurodiversidade propõe que variações neurológicas como
+                        <strong>Transtorno do Espectro Autista (TEA), TDAH, dislexia, dispraxia</strong>
+                        não sejam vistas como doenças a serem “curadas”, mas como diferenças normais e valiosas
+                        na espécie humana.
+                    </p>
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
                 </div>
 
                 <div class="col-lg-6 text-center">
@@ -36,6 +46,7 @@
                 A neurodivergência abrange uma vasta gama de condições que afetam o funcionamento cerebral de maneiras
                 variadas. Cada pessoa aprende, sente e interage com o mundo de um jeito único.
             </p>
+<<<<<<< HEAD
             
             <h4 class="fw-bold mb-2">Reconhecendo a Pluralidade do Cérebro Humano</h4>
             <p class="mb-3">
@@ -45,6 +56,9 @@
             na espécie humana.
             </p>
        
+=======
+
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
             <h4 class="fw-bold mb-2">Entendendo os Termos-Chave</h4>
             <p class="mb-2">
                 <strong>Neurodiversidade:</strong> conceito amplo que afirma que existe uma grande variedade de
@@ -261,6 +275,7 @@
             </div>
 
             <div class="text-center">
+<<<<<<< HEAD
                 <a href="{{route('baixar-pdf')}}" class="btn btn-lg btn-danger shadow cta-btn" download >
                     Baixar Guia Prático Inclusivo
                 </a>
@@ -268,6 +283,11 @@
                 <div class="text-success  pt-2">
                <strong>   Total de downloads ({{ $contador }}) </strong>
                 </div>
+=======
+                <a href="#" class="btn btn-lg btn-danger shadow cta-btn">
+                    Baixar Guia Prático Inclusivo
+                </a>
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
             </div>
         </div>
     </section>

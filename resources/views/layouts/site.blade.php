@@ -26,7 +26,10 @@
     {{-- CONTEÚDO DAS PÁGINAS --}}
     <main>
         @yield('content')
+<<<<<<< HEAD
         @include('includes.acessibilidade')
+=======
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
     </main>
 
     {{-- FOOTER --}}
@@ -34,7 +37,10 @@
 
     {{-- JS Bootstrap --}}
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+<<<<<<< HEAD
 
     <script src="{{ asset('acessibilidade.js') }}"></script>
+=======
+>>>>>>> df409ff7dfe1ad5ceb58bec17c235eacd10435aa
 </body>
 </html>
