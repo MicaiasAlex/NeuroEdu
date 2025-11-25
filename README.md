@@ -2,11 +2,17 @@
 # NeuroEdu
 
 **Descrição curta:**
-Um resumo objetivo do que o projeto faz, qual problema resolve e para quem é destinado.
+Plataforma educacional desenvolvida com Laravel, voltada para *inclusão, **acessibilidade* e *apoio a educadores*, oferecendo conteúdos informativos e ferramentas para compreender e atender alunos neurodivergentes.
 
-Nosso projeto 
-Pretendemos auxiliar a sanar dúvidas e oferecer apoio no ensino aos neurodivergentes
-Destinado ao educadores-Professores
+
+**Nosso projeto:**
+O *NeuroEdu* é um site informativo que reúne orientações, conceitos, explicações, materiais e seções dedicadas a educadores, estudantes e responsáveis.  
+Ele foi desenvolvido com foco em:
+
+- Acessibilidade e clareza  
+- Estrutura modular em Blade  
+- Conteúdo organizado por seções  
+- Layout responsivo usando Bootstrap 
 
 ---
 
@@ -239,19 +245,47 @@ Inclua regras de código (PSR-12), linters e revisão obrigatória.
 
 ---
 
-## Licença
+## Equipe
+Micaías Alexandre
+Marcus Vinícius
+Irlania Felix
+Welson Dias
+Gabriel Andrade
+Maria Gizelly
 
-Informe a licença do projeto (ex.: MIT). Exemplo:
+---
+
+## Licença
 
 ```
 MIT License
+
+Copyright (c) 2025 Micaías
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
 
 ---
 
 ## Contato
 
-Nome do responsável — [email@exemplo.com](mailto:email@exemplo.com)
+Micaías Alexandre — [email@exemplo.com](mailto:micaiasalex013@gmail.com)
 
 ---
 
