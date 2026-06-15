@@ -288,10 +288,6 @@ Micaías Alexandre — [email@exemplo.com](mailto:micaiasalex013@gmail.com)
 
 ---
 
-### Observações finais
-
-Substitua os blocos `<REPO_URL>`, `nome_do_banco`, `usuario`, `senha` e variáveis de exemplo pelos valores reais do projeto. Também recomendo manter um arquivo `CONTRIBUTING.md` e `CHANGELOG.md` para fluxo de trabalho e histórico de releases.
-
 <!-- FIM -->
 
 
